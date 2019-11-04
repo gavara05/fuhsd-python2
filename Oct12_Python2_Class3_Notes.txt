@@ -1,0 +1,43 @@
+Oct 12 - Python 2 - Class 3 Notes:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+try various graph options, colors for all hist, pie, etc.
+
+mean() to be used to get average???
+
+
+normal distribution 
+
+a service has a 99% percentile response time of 50ms.
+==> get samples of response time
+==> calculate standard deviation of the samples
+==> show result in a bell curve
+==> show to confidence interval of 99%, 99%, 99.5%, etc.
+
+
+
+Description can be empty ==> Lookup using StockID
+
+CustomerID can be empty ==> if CustomerID filled for same invoice pre-fill with the same, if not generate random per invoice id.
+
+UK Online Retailer
+
+Currency = GBP / Pound sterling
+
+£ symbol on some price/cost entries needs to be cleaned up -- 32 instances found and removed
+
+Including Headerline:
+
+Records found: 541910 OnlineRetail.csv
+Invoices found: 25901 (InvoiceNo)
+Products found: 4071 (StockCode)
+
+#InvoiceNo: ==> int ; 6-digit number ==> incorrect prefix c exist for records with returned items
+#StockCode: ==> int ; 5-digit number ==> incorrect alpha chars follow for some records
+#Description: ==> str ==> some fields are blank; some have £ char which does not work in command line cut commands
+#Quantity: ==> int ==> 
+#InvoiceDate: ==> date ; format(12/1/10 8:26)
+#UnitPrice: ==> int ; per unit in sterling.
+#CustomerID: ==> int ; 5-digit number ==> some have empty ids; ignore them for now
+#Country: str
+
